@@ -1,0 +1,33 @@
+{
+  "name": "Tutor-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rippyblogger/Tutor-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rippyblogger/Tutor-App/issues"
+  },
+  "homepage": "https://github.com/Rippyblogger/Tutor-App#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
